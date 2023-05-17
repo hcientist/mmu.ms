@@ -7,21 +7,109 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
-    weight: 20
-  - name: Projects
-    url: '#projects'
-    weight: 30
-  - name: Talks
-    url: '#talks'
-    weight: 40
-  - name: Publications
-    url: '#featured'
-    weight: 50
+  - name: Our Story
+    url: story
+  - name: Montessori
+    url: montessori
+  - name: Programs
+    url: programs
+  - name: Nature Education
+    url: nature
+  - name: Admissions
+    url: admissions
+  - name: Parents
+    url: parents
+  - name: Testimonials
+    url: testimonials
+  - name: Careers
+    url: careers
+  - name: Mission
+    parent: Story
+    url: story/mission
+  - name: Accreditation
+    parent: Story
+    url: story/accreditation
+  - name: Careers
+    parent: Story
+    url: story/careers
   - name: Contact
-    url: '#contact'
-    weight: 60
+    parent: Story
+    url: story/contact
+  - name: Maria
+    parent: Montessori
+    url: montessori/maria
+  - name: Compare
+    parent: Montessori
+    url: montessori/compare
+  - name: Alumni
+    parent: Montessori
+    url: montessori/alumni
+  - name: Resources
+    parent: Montessori
+    url: montessori/resources
+  - name: Environment
+    parent: Programs
+    url: programs/nido/environment
+  - name: Communities
+    parent: Programs
+    url: programs/nido/communities
+  - name: Community
+    parent: Programs
+    url: programs/toddler-community
+  - name: House
+    parent: Programs
+    url: programs/childrens-house
+  - name: Elementary
+    parent: Programs
+    url: programs/elementary
+  - name: Culinar
+    parent: Programs
+    url: programs/culinar
+  - name: May
+    parent: Programs
+    url: programs/culinary/monthly/2023/may
+  - name: Difference
+    parent: Programs
+    url: programs/culinary/difference
+  - name: Stewardship
+    parent: Nature
+    url: nature/environmental-stewardship
+  - name: Enrollment
+    parent: Admissions
+    url: admissions/considering-enrollment
+  - name: Schedules
+    parent: Admissions
+    url: admissions/tuition-schedules
+  - name: Forms
+    parent: Admissions
+    url: admissions/enrollment-forms
+  - name: Faq
+    parent: Admissions
+    url: admissions/faq
+  - name: Calendar
+    parent: Parents
+    url: parents/calendar
+  - name: Menu
+    parent: Parents
+    url: parents/monthly-menu
+  - name: Forms
+    parent: Parents
+    url: parents/enrollment-forms
+  # - name: Posts
+  #   url: '#posts'
+  #   weight: 20
+  # - name: Projects
+  #   url: '#projects'
+  #   weight: 30
+  # - name: Talks
+  #   url: '#talks'
+  #   weight: 40
+  # - name: Publications
+  #   url: '#featured'
+  #   weight: 50
+  # - name: Contact
+  #   url: '#contact'
+  #   weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
